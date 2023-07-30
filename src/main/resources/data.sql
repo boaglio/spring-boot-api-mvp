@@ -1,0 +1,2 @@
+INSERT INTO CLIENTE VALUES (1,'Machado de Assis',11111111111, DATE '1839-06-21', 'Rio de Janeiro');
+INSERT INTO CLIENTE VALUES (2,'Clarice Lispector',22222222222, DATE '1920-12-10', 'Chechelnyk');
