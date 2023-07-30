@@ -46,7 +46,7 @@ replay_pid*
 *.ctxt
 
 # IntelliJ 
-.idea/
+.idea/**
 *.iml
 *.ipr
 *.iws
