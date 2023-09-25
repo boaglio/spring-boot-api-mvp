@@ -1,4 +1,4 @@
-package com.boaglio.apivmp;
+package com.boaglio.apivmvp;
 
 
 import org.junit.jupiter.api.BeforeEach;

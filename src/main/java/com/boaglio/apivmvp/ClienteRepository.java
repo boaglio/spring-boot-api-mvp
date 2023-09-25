@@ -1,4 +1,4 @@
-package com.boaglio.apivmp;
+package com.boaglio.apivmvp;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

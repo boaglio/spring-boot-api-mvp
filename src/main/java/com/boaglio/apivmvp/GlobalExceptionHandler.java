@@ -1,4 +1,4 @@
-package com.boaglio.apivmp;
+package com.boaglio.apivmvp;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

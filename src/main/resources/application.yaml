@@ -1,7 +1,9 @@
 logging:
   level:
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org:
+      hibernate:
+        SQL: DEBUG
+        type.descriptor.sql.BasicBinder: TRACE
 
 spring:
   datasource:
@@ -14,6 +16,22 @@ spring:
    show-sql: true
    hibernate:
         ddl-auto: none
+
 management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
   security:
     enabled: false
+
+springdoc:
+  cache:
+    disabled: true
+  show-actuator: true
+  swagger-ui:
+    display-request-duration: true
+    use-root-path: true
+    groups-order: DESC
+    operationsSorter: method
+  version: 1.0

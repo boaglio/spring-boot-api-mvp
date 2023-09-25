@@ -1,5 +1,6 @@
-package com.boaglio.apivmp;
+package com.boaglio.apivmvp;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -9,10 +10,17 @@ import java.time.LocalDate;
 public class Cliente {
 
     @Id
+    @Schema(example = "1")
     private Long id;
+    @Schema(example = "Machado de Assis")
     private String nome;
+    @Schema(example = "11111111111")
     private Long  cpf;
+
+    @Schema(example = "1839-06-21'")
     private LocalDate dataNascimento;
+
+    @Schema(example = "Rio de Janeiro'")
     private String cidadeNascimento;
 
     public Long getId() {
