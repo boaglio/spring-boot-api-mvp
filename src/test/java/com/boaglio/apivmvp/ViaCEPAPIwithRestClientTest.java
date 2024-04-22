@@ -11,7 +11,7 @@ import java.util.Objects;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ViaCEPAPITest {
+class ViaCEPAPIwithRestClientTest {
 
     private static final String CEP_PRACA_3_PODERES = "70100-000";
     private static final int TIMEOUT_EM_MS = 10_000;
